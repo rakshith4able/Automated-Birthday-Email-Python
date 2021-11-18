@@ -1,13 +1,11 @@
 ##################### Automated Birthday Wishing Email Project ######################
-# Goutham,gouthamkaustuba@gmail.com,1996,11,18
-# Suhas,suhasyogeesha789@gmail.com,1999,11,18
 import datetime as dt
 import pandas as pd
 import smtplib
 from random import randint
 
 MY_EMAIL = "4mh17cs069@gmail.com"
-PASSWORD = "dummy@password123"
+PASSWORD = ""
 
 
 # TODO 1 Starting files => 1)main.py 2)3 random letter templates 3)birthdays.csv containing name,email,birthday entries
